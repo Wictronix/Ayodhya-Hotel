@@ -3,6 +3,7 @@
 import Accommodations from "@/components/accomodations/Accomodations";
 import BookingForm from "@/components/booking/BookingForm";
 import FeatureCard from "@/components/FeatureCard";
+import { GetInTouch } from "@/components/getintouch/GetInTouch";
 
 const features = [
   {
@@ -57,6 +58,7 @@ export default function Home() {
         </div>
       </div>
       <Accommodations />
+      <GetInTouch />
     </main>
   );
 }
